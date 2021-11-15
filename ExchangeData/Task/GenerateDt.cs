@@ -55,9 +55,6 @@ namespace ExchangeData.Task
                         // 插入空白行
                         dt.Merge(InsertEmptyRow(dt));
                     }
-
-                    //将相关中转变量清空
-                    tempsizename = "";
                 }
             }
             catch (Exception)
