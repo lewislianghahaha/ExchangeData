@@ -36,7 +36,7 @@
             // 
             // btn_import
             // 
-            this.btn_import.Location = new System.Drawing.Point(64, 72);
+            this.btn_import.Location = new System.Drawing.Point(56, 42);
             this.btn_import.Name = "btn_import";
             this.btn_import.Size = new System.Drawing.Size(132, 23);
             this.btn_import.TabIndex = 0;
@@ -50,7 +50,7 @@
             this.tmclose});
             this.Mean.Location = new System.Drawing.Point(0, 0);
             this.Mean.Name = "Mean";
-            this.Mean.Size = new System.Drawing.Size(266, 25);
+            this.Mean.Size = new System.Drawing.Size(238, 25);
             this.Mean.TabIndex = 1;
             this.Mean.Text = "menuStrip1";
             // 
@@ -64,7 +64,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(266, 264);
+            this.ClientSize = new System.Drawing.Size(238, 88);
             this.ControlBox = false;
             this.Controls.Add(this.btn_import);
             this.Controls.Add(this.Mean);

@@ -47,7 +47,7 @@ namespace ExchangeData.Task
                                 newrow[1] = dtlrows[i][1];  //色母编号
                                 newrow[2] = dtlrows[i][2];  //色母名称
                                 newrow[3] = dtlrows[i][3];  //描述
-                                newrow[4] = size[0];        //体积名称
+                                newrow[4] = size[j];        //体积名称
                                 newrow[5] = Convert.ToString(dtlrows[i][id]) == "-"? 0 : Convert.ToDecimal(dtlrows[i][id]);  //单价
                                 dt.Rows.Add(newrow);
                             }
